@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context="com.example.contactsbackendless.MainActivity" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingLeft="16dp" android:paddingBottom="16dp" android:orientation="vertical" android:gravity="center_horizontal" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="20dp" android:textSize="20dp" android:text="Object is saving to the real time database..." android:id="@+id/status"/>
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="20dp" android:text="Live update object property:"/>
+
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="30dp" android:textSize="30dp" android:text="..." android:id="@+id/saved_value" android:textStyle="bold"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/property_value" android:singleLine="true" android:maxLines="1" android:inputType="text" android:hint="Change property value"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="UPDATE" android:id="@+id/update_button" android:textStyle="bold" android:layout_gravity="right" android:layout_marginTop="16dp" style="?android:textAppearanceSmall"/>
+
+</LinearLayout>
